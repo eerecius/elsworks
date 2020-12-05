@@ -11,17 +11,19 @@
 
 <body>
 
-<img alt="weapon girl hiss" class="wpngrl-hiss" src="images/weapon-girl-hiss.png" usemap="#wpngrl-map"></img>
-<img alt="weapon girl" class="wpngrl-img" src="images/weapon-girl-landing.png" usemap="#wpngrl-map"></img>
-<map name="wpngrl-map" onmouseover="hiss()" onmouseout="unHiss()">
-	<area shape="poly" coords="135,67, 13,131, 49,183, 130,153, 175,175, 168,194, 214,212, 199,239,
-		211,267, 207,294, 170,239, 136,261, 180,301, 121,318, 142,340, 180,324, 153,358, 174,428, 249,420, 274,599,
-		343,599, 350,424, 410,398, 349,321, 350,301, 382,270, 359,219, 393,161, 349,74, 261,51, 169,112, 141,112"
-		href="wpngrl.html" target="_self"/>
-</map>
+<div>
+	<a href="wpngrl.html">
+		<img alt="weapon girl hiss" class="wpngrl-hiss" src="images/weapon-girl-hiss.png" onmouseout="unHiss('wpngrl-img', 'wpngrl-hiss')"></img>
+		<img alt="weapon girl" class="wpngrl-img" src="images/weapon-girl-landing.png" onmouseover="hiss('wpngrl-img', 'wpngrl-hiss')"></img>
+	</a>
+	
+	<a href="index.html">
+		<img alt="back to front page" class="back-button" src="images/back.png"></img>
+	</a>
+</div>
 
 <header>
-<a href="index.html"><img alt="els.works" class="logo" src="images/logo.png"></img></a>
+<a href="index.html"><img alt="zines" class="logo" src="images/zine-logo.png"></img></a>
 </header>
 
 <div class="sidebar">
@@ -33,7 +35,7 @@
 </div>
 
 <div class="content">
-zines go here!
+zines go here eventually. . . .
 </div>
 
 

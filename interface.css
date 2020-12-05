@@ -15,7 +15,7 @@ body {
 	overflow-x: auto;
 	
 	display: grid;
-	grid-template-columns: 1fr 0.5fr 60% 1fr ;
+	grid-template-columns: 2fr 1fr 50% 3fr ;
 	grid-template-rows: 75px 1fr;
 	gap: 30px;
 }
@@ -56,26 +56,42 @@ a {
 
 .wpngrl-img, .wpngrl-hiss{
 	bottom: 0;
-	right: 0;
-	height: 65vh;
+	right: 50px;
+	height: 60vh;
 	width: auto;
 	position: absolute;
 }
 
-.wpngrl-hiss {
+.wpngrl-hiss, .zines-hover {
 	display: none;
 }
 
+.wpngrl-crawl {
+	bottom: 0;
+	right: 0;
+	height: 40vh;
+	width: auto;
+	position: absolute;
+}
+
 .logo {
-	width: 225px;
+	width: auto;
 	height: 75px;
 }
 
-.zines-link {
-	left: 0;
+.back-button {
+	left: 2%;
+	top: 5%;
+	height: 50px;
+	width: auto;
+	position: absolute;
+}
+
+.zines-link, .zines-hover {
+	left: -35px;
 	bottom: 7%;
-	height: 400px;
-	width: 350px;
+	height: 40vh;
+	width: auto;
 	position: absolute;
 	
 }

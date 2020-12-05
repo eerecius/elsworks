@@ -1,9 +1,9 @@
-function hiss(){
-	document.getElementsByClassName("wpngrl-hiss")[0].style.display="block";
-	document.getElementsByClassName("wpngrl-img")[0].style.display="none";
+function hiss(imgDefault, imgHover){
+	document.getElementsByClassName(imgHover)[0].style.display="block";
+	document.getElementsByClassName(imgDefault)[0].style.display="none";
 }
 
-function unHiss(){
-	document.getElementsByClassName("wpngrl-hiss")[0].style.display="none";
-	document.getElementsByClassName("wpngrl-img")[0].style.display="block";
+function unHiss(imgDefault, imgHover){
+	document.getElementsByClassName(imgHover)[0].style.display="none";
+	document.getElementsByClassName(imgDefault)[0].style.display="block";
 }
