@@ -96,6 +96,13 @@ a {
 	
 }
 
+.signature {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 12px;
+}
+
 area:hover {
 	background-color: red;
 }
