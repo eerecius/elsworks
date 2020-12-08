@@ -17,7 +17,7 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 1fr 50% 3fr ;
 	grid-template-rows: 75px 1fr;
-	gap: 30px;
+	gap: 15px;
 }
 
 ::selection {
@@ -49,9 +49,14 @@ a {
 }
 
 .content {
+	display: inline;
 	grid-column: 3 / 4;
 	grid-row: 2 / 3;
 	font-family: "Roboto";
+}
+
+.portfolio {
+	text-align: center;
 }
 
 .wpngrl-img, .wpngrl-hiss{
@@ -103,6 +108,64 @@ a {
 	font-size: 12px;
 }
 
-area:hover {
-	background-color: red;
+.gallery-container {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: auto;
+	overflow: hiddens;
+	cursor: pointer;
+}
+
+.gallery-preview {
+	width: 200px;
+	height: 250px;
+	height: automatic;
+	filter: brightness(50%);
+}
+
+.gallery-text {
+	position: absolute;
+	letter-spacing: -3px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: "archivo black";
+	font-size: 36px;
+}
+
+.gallery {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.85);
+	color: white;
+	font-family: Roboto, sans-serif;
+}
+
+.x-out {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+	cursor: pointer;
+	width: 24px;
+	height: auto;
+}
+
+.left-img {
+}
+
+.active-img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: auto;
+	height: 75vh;
+}
+
+.right-img {
 }
