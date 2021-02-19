@@ -151,3 +151,8 @@ button:active {
 .launch {
 	width: 400px;
 }
+
+.resume {
+	white-space: pre-wrap;
+	text-align: left;
+}
