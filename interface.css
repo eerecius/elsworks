@@ -16,12 +16,14 @@ body {
 	
 	display: grid;
 	grid-template-columns: 2fr 1fr 50% 3fr ;
-	grid-template-rows: 75px 1fr;
+	grid-template-rows: 100px 1fr;
 	gap: 15px;
+	
+	background-color: #d9c6a7;
 }
 
 ::selection {
-	color: white;
+	color: #d9c6a7;
 	background-color: black;
 }
 
@@ -38,7 +40,7 @@ a {
 }
 
 .sidebar-links:hover {
-	color: white;
+	color: #d9c6a7;
 	background-color: black;
 	border: 3px solid black;
 }
@@ -81,7 +83,7 @@ a {
 
 .logo {
 	width: auto;
-	height: 75px;
+	height: 100px;
 }
 
 .back-button {
@@ -108,64 +110,21 @@ a {
 	font-size: 12px;
 }
 
-.gallery-container {
-	display: inline-block;
-	position: relative;
-	width: 200px;
+.portrait {
+	width: 100px;
+	height:auto;
+	float:left;
+	padding-right:15px;
+}
+
+select {
+	font-size: inherit;
+	font-style: inherit;
+	background-color: inherit;
+	border: 1px solid rgb(0,0,0,0.25);
+}
+
+.landing {
+	width: 35vw;
 	height: auto;
-	overflow: hiddens;
-	cursor: pointer;
-}
-
-.gallery-preview {
-	width: 200px;
-	height: 250px;
-	height: automatic;
-	filter: brightness(50%);
-}
-
-.gallery-text {
-	position: absolute;
-	letter-spacing: -3px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white;
-	font-family: "archivo black";
-	font-size: 36px;
-}
-
-.gallery {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,0.85);
-	color: white;
-	font-family: Roboto, sans-serif;
-}
-
-.x-out {
-	position: absolute;
-	top: 24px;
-	right: 24px;
-	cursor: pointer;
-	width: 24px;
-	height: auto;
-}
-
-.left-img {
-}
-
-.active-img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: auto;
-	height: 75vh;
-}
-
-.right-img {
 }
