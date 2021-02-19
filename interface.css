@@ -128,3 +128,26 @@ select {
 	width: 35vw;
 	height: auto;
 }
+
+button {
+	font-family: "DM Mono";
+	font-size: inherit;
+	color: #4a3e32;
+	border: none;
+	height: 30px;
+	background-color: #998067;
+	cursor: grab;
+	outline: none;
+	box-shadow: -4px 4px #4a3e32;
+	border: 2px solid #826c57;
+}
+
+button:active {
+	cursor: grabbing;
+	transform: translateY(2px) translateX(-2px);
+	box-shadow: -2px 2px #4a3e32;
+}
+
+.launch {
+	width: 400px;
+}
