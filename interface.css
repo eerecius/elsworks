@@ -156,3 +156,12 @@ button:active {
 	white-space: pre-wrap;
 	text-align: left;
 }
+
+.gallery-tile {
+	width: 20%;
+	height: auto;
+}
+
+.gallery-tile:hover {
+	filter: brightness(50%);
+}
