@@ -158,10 +158,20 @@ button:active {
 }
 
 .gallery-tile {
-	width: 20%;
+	width: auto;
 	height: auto;
+	display: inline-block;
 }
 
-.gallery-tile:hover {
-	filter: brightness(50%);
+.gallery-thumb {
+	height: 250px;
+	width: auto;
+}
+
+.gallery-thumb:hover {
+	cursor: pointer;
+}
+
+.gallery-text {
+	display: none;
 }
