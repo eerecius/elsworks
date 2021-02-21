@@ -50,7 +50,7 @@ a {
 	grid-row: 2 / 3;
 }
 
-.content {
+#content {
 	display: inline;
 	grid-column: 3 / 4;
 	grid-row: 2 / 3;
@@ -125,7 +125,8 @@ select {
 }
 
 .landing {
-	width: 35vw;
+	width: 45vw;
+	max-width: 464px;
 	height: auto;
 }
 
@@ -157,21 +158,36 @@ button:active {
 	text-align: left;
 }
 
-.gallery-tile {
-	width: auto;
-	height: auto;
-	display: inline-block;
-}
-
 .gallery-thumb {
 	height: 250px;
 	width: auto;
 }
 
 .gallery-thumb:hover {
-	cursor: pointer;
+	cursor: zoom-in;
 }
 
-.gallery-text {
+#gallery-container {
+	text-align: center;
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
 	display: none;
+}
+
+#gallery-active {
+	height: 70vh;
+}
+
+#gallery-text {
+	font-family: Roboto;
+}
+
+#zoomer-outer {
+	width: 100%;
+	height: auto;
+	cursor: zoom-out;
+}
+
+img {
+	loading: lazy;
 }
