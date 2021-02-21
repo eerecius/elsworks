@@ -40,14 +40,16 @@
 </div>
 
 <div id="gallery-container">
-	<div id="zoomer-outer" onclick="ensmall()">
-		<img id="gallery-active" src="images/think-about.png"></img>
-	</div>
+	<button id="newer-arrow" class="gallery-arrows" onclick="scrollToLeft()">newer</button><br>
+	<img id="gallery-active" src="images/think-about.png" onclick="ensmall()"></img><br>
+	<button id="older-arrow" class="gallery-arrows" onclick="scrollToRight()">older</button>
 	<p id="gallery-text">you shouldn't be seeing this!</p>
 	<br><br>
 </div>
 
 <div id="content" style="text-align:center;">
+
+<div id="gallery">
 
 <img class="gallery-thumb" src="images/gallery/real art/cover.jpg" onclick="enlarge(this)"
 title="it is what it is (album by doll people) - 2020; digital collage" alt="it is what is is (album by doll people)"></img>
@@ -103,7 +105,10 @@ title="under that damned light (featured in vol. 5 of Fruitcake Magazine) - 2020
 <img class="gallery-thumb" src="images/gallery/real art/adam's apple.jpg" onclick="enlarge(this)"
 title="2020; steel rod, plaster bandages, gauze, needle and thread" alt="adam's apple (sculpture)"></img>
 
+</div>
+
 <br><br><br>
+
 </div>
 
 <div class="signature">

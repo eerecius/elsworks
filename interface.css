@@ -176,18 +176,43 @@ button:active {
 
 #gallery-active {
 	height: 70vh;
+	cursor: zoom-out;
 }
 
 #gallery-text {
 	font-family: Roboto;
 }
 
-#zoomer-outer {
-	width: 100%;
-	height: auto;
-	cursor: zoom-out;
-}
-
 img {
 	loading: lazy;
+}
+
+.gallery-arrows {
+	width: 1fr;
+	background-color: red;
+	user-select: none;
+}
+
+.gallery-arrows:hover {
+	cursor: pointer;
+	background-color: blue;
+}
+
+.gallery-arrows:disabled {
+	background-color: darkred;
+	cursor: not-allowed;
+	transform: translateY(2px) translateX(-2px);
+	box-shadow: -2px 2px #4a3e32;
+}
+
+.gallery-arrows:active {
+	background-color: yellow;
+}
+
+#newer-arrow {
+	float: left;
+}
+
+#older-arrow {
+	float: right;
 }
