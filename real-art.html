@@ -40,9 +40,11 @@
 </div>
 
 <div id="gallery-container">
-	<button id="newer-arrow" class="gallery-arrows" onclick="scrollToLeft()">newer</button><br>
-	<img id="gallery-active" src="images/think-about.png" onclick="ensmall()"></img><br>
-	<button id="older-arrow" class="gallery-arrows" onclick="scrollToRight()">older</button>
+	<button id="newer-arrow" class="gallery-arrows" onclick="scrollToLeft()">< newer</button>
+	<button id="older-arrow" class="gallery-arrows" onclick="scrollToRight()">older ></button><br>
+	<div id="zoomer-outer" onclick="ensmall()">
+		<img id="gallery-active" src="images/think-about.png" onclick="ensmall()"></img>
+	</div>
 	<p id="gallery-text">you shouldn't be seeing this!</p>
 	<br><br>
 </div>

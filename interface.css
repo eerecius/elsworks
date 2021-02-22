@@ -131,6 +131,17 @@ select {
 }
 
 button {
+
+}
+
+.launch:active {
+	cursor: grabbing;
+	transform: translateY(2px) translateX(-2px);
+	box-shadow: -2px 2px #4a3e32;
+}
+
+.launch {
+	width: 400px;
 	font-family: "DM Mono";
 	font-size: inherit;
 	color: #4a3e32;
@@ -141,16 +152,6 @@ button {
 	outline: none;
 	box-shadow: -4px 4px #4a3e32;
 	border: 2px solid #826c57;
-}
-
-button:active {
-	cursor: grabbing;
-	transform: translateY(2px) translateX(-2px);
-	box-shadow: -2px 2px #4a3e32;
-}
-
-.launch {
-	width: 400px;
 }
 
 .resume {
@@ -175,7 +176,8 @@ button:active {
 }
 
 #gallery-active {
-	height: 70vh;
+	height: 55vh;
+	width: auto;
 	cursor: zoom-out;
 }
 
@@ -188,31 +190,35 @@ img {
 }
 
 .gallery-arrows {
-	width: 1fr;
-	background-color: red;
+	width: auto;
+	height: 30px;
 	user-select: none;
+	margin-bottom: 15px;
+	border: 1px solid black;
+	background-color: inherit;
+	outline: none;
 }
 
 .gallery-arrows:hover {
 	cursor: pointer;
-	background-color: blue;
+	background-color: black;
+	color: #d9c6a7;
+	
 }
 
 .gallery-arrows:disabled {
-	background-color: darkred;
+	opacity: 25%;
 	cursor: not-allowed;
-	transform: translateY(2px) translateX(-2px);
-	box-shadow: -2px 2px #4a3e32;
+	background-color: inherit;
+	color: black;
 }
 
 .gallery-arrows:active {
-	background-color: yellow;
+	background-color: black;
+	color: #d9c6a7;
 }
 
-#newer-arrow {
-	float: left;
-}
-
-#older-arrow {
-	float: right;
+#zoomer-outer {
+	width: 100%;
+	cursor: zoom-out;
 }
