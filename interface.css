@@ -179,6 +179,7 @@ button {
 	height: 55vh;
 	width: auto;
 	cursor: zoom-out;
+	user-select: none;
 }
 
 #gallery-text {
@@ -196,7 +197,6 @@ img {
 	margin-bottom: 15px;
 	border: 1px solid black;
 	background-color: inherit;
-	outline: none;
 }
 
 .gallery-arrows:hover {

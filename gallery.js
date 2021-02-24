@@ -27,12 +27,8 @@ function enlarge(piece){
 	shownPiece.src = piece.src;
 	shownText.innerHTML = piece.title.replace(" - ", "<br>");
 	
-	if (nextPiece !== null) {
-		nextPiece = piece.nextElementSibling;
-	}
-	if (previousPiece !== null) {
-		previousPiece = piece.previousElementSibling;
-	}
+	nextPiece = piece.nextElementSibling;
+	previousPiece = piece.previousElementSibling;
 	
 	document.getElementById("content").style.display = "none";
 	document.getElementById("gallery-container").style.display = "block";
@@ -43,6 +39,9 @@ function enlarge(piece){
 function ensmall() {
 	document.getElementById("content").style.display = "block";
 	document.getElementById("gallery-container").style.display = "none";
+	
+	newerArrow.disabled = false;
+	olderArrow.disabled = false;
 }
 
 function scrollToRight() {	
