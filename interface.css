@@ -176,6 +176,10 @@ button {
 	text-align: left;
 }
 
+#gallery {
+	text-align: center;
+}
+
 .gallery-thumb {
 	height: 250px;
 	width: auto;
