@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="interface.css" />
+<title>elsworks—bicycle</title>
+<link rel="shortcut icon" type="image/jpg" href="favicon.ico?"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+<header>
+<a href="index.html"><img alt="els.works" class="logo" src="images/logo2.png"></img></a>
+</header>
+
+<div class="sidebar">
+<a class="sidebar-links" href="about.html">about</a><br><br>
+<a class="sidebar-links" href="real-art.html">art</a><br><br>
+<a class="sidebar-links" href="fake-art.html">"art"</a><br><br>
+<a class="sidebar-links" href="silica.html">silica</a><br><br>
+<a class="sidebar-links" href="bicycle.html">bicycle</a><br><br>
+<a class="sidebar-links" href="etc.html">etc</a><br><br>
+</div>
+
+<div id="gallery-container">
+	<button id="newer-arrow" class="gallery-arrows" onclick="scrollToLeft()">< prev</button>
+	<button id="older-arrow" class="gallery-arrows" onclick="scrollToRight()">next ></button><br>
+	<div id="zoomer-outer" onclick="ensmall()">
+		<img id="gallery-active" src="images/think-about.png" onclick="ensmall()"></img>
+	</div>
+	<p id="gallery-text">you shouldn't be seeing this!</p>
+	<br><br>
+</div>
+
+<div id="content">
+	<div id="gallery">
+		<img class="gallery-thumb" src="images/gallery/bicycle/blue glam.jpg" onclick="enlarge(this)"
+		title="fully restored!" alt="blue glam"></img>
+		
+		<img class="gallery-thumb" src="images/gallery/bicycle/blue pre.jpg" onclick="enlarge(this)"
+		title="pre-restoration" alt="baby blue"></img>
+	</div>
+	<b>blue:</b> 1978 centurion lemans. 63, 64cm frame?<br>
+	my first restoration project, sept. 2020 to maybe april 2021.<br>
+	replaced: brake levers, shifters, wheelset<br>
+	sold to my coworker in july 2021
+	<hr>
+	<div id="gallery">
+        <img class="gallery-thumb" src="images/gallery/bicycle/dia phase 4.jpg" onclick="enlarge(this)"
+        title="phase 4 -- a shiny new wald basket and new 35mm gravel tires" alt="dia phase 4"></img>
+	
+		<img class="gallery-thumb" src="images/gallery/bicycle/dia phase 3.jpg" onclick="enlarge(this)"
+		title="phase 3 -- replaced stock drops with salsa cowchippers, added front basket" alt="dia phase 3"></img>
+	
+		<img class="gallery-thumb" src="images/gallery/bicycle/dia phase 2.jpg" onclick="enlarge(this)"
+		title="phase 2 -- changed saddle, pedals, rack" alt="dia phase 2"></img>
+		
+		<img class="gallery-thumb" src="images/gallery/bicycle/dia phase 1.jpg" onclick="enlarge(this)"
+		title="phase 1 -- changed consumables, removed old fenders & rack" alt="dia phase 1"></img>
+		
+		<img class="gallery-thumb" src="images/gallery/bicycle/dia pre.jpg" onclick="enlarge(this)"
+		title="pre restoration" alt="baby dia"></img>
+	</div>
+	<b>dia: </b>1994 bridgestone rb-t. 58cm<br>
+	purchased may 2021 but work is ongoing.<br>
+	Dia as an acronym for Do! It! All !!!<br>
+	replaced: rack, saddle; handlebars
+	<hr>
+	BUY A USED BICYCLE !! TEACH YOURSELF HOW TO GET IT TO WORK AGAIN !! AUTONOMY IS EN VOGUE !!
+	<br><br>.
+</div>
+
+<div class="signature">
+	© 2020 - 2021 ellory erecius
+</div>
+
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="gallery.js"></script>
+
+</html>

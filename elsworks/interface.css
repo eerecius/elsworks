@@ -1,0 +1,180 @@
+html {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+body {
+	padding: 30px;
+    height: 100vh;
+	width: 100vw;
+	font-family: "Archivo Black", sans-serif;
+	font-size: 20px;
+	
+	overflow-y: auto;
+	overflow-x: auto;
+	
+	display: grid;
+	grid-template-columns: 1fr 60% 1fr;
+	grid-template-rows: 100px 1fr;
+	gap: 15px;
+	background-color: #a38e6d;
+}
+
+::selection {
+	color: #d9c6a7;
+	background-color: black;
+}
+
+header {
+    font-size: 24px;
+	grid-column: 1 / 3;
+	grid-row: 1 / 2;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.sidebar-links:hover {
+	color: #d9c6a7;
+	background-color: black;
+	border: 3px solid black;
+}
+
+.sidebar {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+}
+
+#content {
+	display: inline;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	font-family: "Roboto";
+}
+
+.portfolio {
+	text-align: center;
+}
+
+
+.logo {
+	width: auto;
+	height: 100px;
+}
+
+.signature {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-size: 12px;
+}
+
+.portrait {
+	width: 100px;
+	height:auto;
+	float:left;
+	padding-right:15px;
+}
+
+select {
+	font-size: inherit;
+	font-style: inherit;
+	background-color: inherit;
+	border: 1px solid rgb(0,0,0,0.25);
+}
+
+.landing {
+	height: 60vh;
+}
+
+button {
+
+}
+
+.launch:active {
+	cursor: grabbing;
+	transform: translateY(2px) translateX(-2px);
+	box-shadow: -2px 2px #4a3e32;
+}
+
+.launch {
+	width: 400px;
+	font-family: "DM Mono";
+	font-size: inherit;
+	color: #4a3e32;
+	border: none;
+	height: 30px;
+	background-color: #998067;
+	cursor: grab;
+	outline: none;
+	box-shadow: -4px 4px #4a3e32;
+	border: 2px solid #826c57;
+}
+
+#gallery {
+	text-align: center;
+}
+
+.gallery-thumb {
+	height: 250px;
+	width: auto;
+}
+
+.gallery-thumb:hover {
+	cursor: zoom-in;
+}
+
+#gallery-container {
+	text-align: center;
+	grid-column: 2 / 3;
+	grid-row: 1 / 3;
+	display: none;
+}
+
+#gallery-active {
+	height: auto;
+	width: 70%;
+	cursor: zoom-out;
+	user-select: none;
+}
+
+#gallery-text {
+	font-family: Roboto;
+}
+
+.gallery-arrows {
+	width: auto;
+	height: 30px;
+	user-select: none;
+	margin-bottom: 15px;
+	border: 1px solid black;
+	background-color: inherit;
+}
+
+.gallery-arrows:hover {
+	cursor: pointer;
+	background-color: black;
+	color: #d9c6a7;
+	
+}
+
+.gallery-arrows:disabled {
+	opacity: 25%;
+	cursor: not-allowed;
+	background-color: inherit;
+	color: black;
+}
+
+.gallery-arrows:active {
+	background-color: black;
+	color: #d9c6a7;
+}
+
+#zoomer-outer {
+	width: 100%;
+	cursor: zoom-out;
+}
