@@ -1,0 +1,283 @@
+[33mcommit d6f509eb298e3ca7f8546d11865319e546087e0b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: eerecius <eerecius@gmail.com>
+Date:   Tue Jan 25 18:23:20 2022 -0800
+
+    Scrumching it
+
+[33mcommit 8bf2f1daa6b3b4be68acdb611eca929669118771[m
+Author: eerecius <eerecius@gmail.com>
+Date:   Thu Nov 11 17:16:36 2021 -0800
+
+    First push from thinkpad!
+
+[33mcommit 3948a6b91238eaa8e7a6b699e2e3282f5f3025e4[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Wed Nov 10 17:29:28 2021 -0800
+
+    Oopsie daisy
+
+[33mcommit 90d5e62e76cd339ec5b5bf5b7ef49e06b021a30e[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Wed Nov 10 17:28:14 2021 -0800
+
+    Format overhaul
+
+[33mcommit d4c67517b9174907b45f2eed67e859633e46f871[m
+Author: admin <eerecius@gmail.com>
+Date:   Sun Aug 1 14:33:26 2021 -0700
+
+    updated bicycle, added fruitcake cover
+
+[33mcommit ce390a90416b652982e50750963cfafdcfea7660[m
+Author: admin <eerecius@gmail.com>
+Date:   Sun Jul 11 00:46:19 2021 -0700
+
+    bicycle page update, removed resume
+
+[33mcommit c3de601be30001e94a168f0dbf5036307e0ed6f4[m
+Author: admin <eerecius@gmail.com>
+Date:   Mon May 3 14:38:56 2021 -0700
+
+    added one character to about page lmao
+
+[33mcommit 10077860b9f6e2911cbe0193154558ca64d32ff0[m
+Author: admin <eerecius@gmail.com>
+Date:   Mon May 3 14:38:15 2021 -0700
+
+    updated bike page and about
+
+[33mcommit 3d864bb371a633de5000f2556407d6bdcb521e04[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Apr 17 14:50:19 2021 -0700
+
+    bike page
+
+[33mcommit b2c6d80d163b03b6cc431d5ab6a51f9b18afc873[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Apr 9 22:38:46 2021 -0700
+
+    compressed logo
+
+[33mcommit 59681efaba15137b347c3980d6d2b7b80e2d96f6[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Apr 9 22:29:13 2021 -0700
+
+    decringed
+
+[33mcommit 87cf56ca8cf1848ae83d0e156f02fb5be27fba8e[m
+Author: admin <eerecius@gmail.com>
+Date:   Wed Mar 17 13:09:12 2021 -0700
+
+    added art & webring links
+
+[33mcommit 3708955bc7a43ce6e4d9fd26884ff2c7eb3fa42e[m
+Author: admin <eerecius@gmail.com>
+Date:   Tue Feb 23 20:55:10 2021 -0800
+
+    fixed gallery arrows bug
+
+[33mcommit 481287af36abc0978fc2e04a8570e67e1343dd23[m
+Author: admin <eerecius@gmail.com>
+Date:   Mon Feb 22 13:35:17 2021 -0800
+
+    updated copyright dates
+
+[33mcommit 03b602d03f218193cd871650211776d295915306[m
+Author: admin <eerecius@gmail.com>
+Date:   Mon Feb 22 12:59:03 2021 -0800
+
+    gallery FINISHED!!!!
+
+[33mcommit f00ca0d862795c340a44ed841fea8bb22dc229ed[m
+Author: admin <eerecius@gmail.com>
+Date:   Sun Feb 21 14:25:13 2021 -0800
+
+    added gallery left right buttons (temporary styling)
+
+[33mcommit 7333e78d03c932d36a6ee463a8e376e2728121b5[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Feb 20 22:30:12 2021 -0800
+
+    ok we'll save that until later
+
+[33mcommit 4c54b9335da83ddff3edad97dff62e12bd226be7[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Feb 20 22:22:03 2021 -0800
+
+    uhhh test
+
+[33mcommit 3cbf4b4d97b19a2f34c6a4637667edef6b5dfc4a[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Feb 20 22:18:49 2021 -0800
+
+    uhh second try
+
+[33mcommit 3c2c530e51b7682ec70704ea7fd109a3099f4c2f[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Feb 20 22:16:34 2021 -0800
+
+    created ht access
+
+[33mcommit 1a1d6d9c6b5d73ffb7eccd2b0f738efb8ed859a2[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Feb 20 22:05:29 2021 -0800
+
+    ACTUALLY fixed favicon?
+
+[33mcommit 2bc7e2efa0022bf1c72929fd44bbd942abd692d5[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Feb 20 22:03:49 2021 -0800
+
+    updated titles, hopefully fixed favicon
+
+[33mcommit 38ec3202df234d2e646e205948fe22d5fc4d8c71[m
+Author: admin <eerecius@gmail.com>
+Date:   Sat Feb 20 21:56:10 2021 -0800
+
+    "lightbox" added!!!
+
+[33mcommit cf8227c689fe60183359e284a75ff2bd84c273ab[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Feb 19 16:25:38 2021 -0800
+
+    restored VoRS, first step of enlarging
+    
+    had to go to work
+
+[33mcommit 6a89698a54c45cce4b82bbc2eb65e35404b26e96[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Feb 19 13:29:21 2021 -0800
+
+    compressed images to help load time on gallery pages
+
+[33mcommit a9d511f273889b98e44e24a86d1149f0b1a83aaa[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Feb 19 12:40:35 2021 -0800
+
+    gallery tiles added
+
+[33mcommit ff4a7a90fe91f988ecfd452fe9e1ddd53312ca56[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Feb 19 12:00:52 2021 -0800
+
+    organizing gallery images, added resume
+
+[33mcommit d3e653ed49d52baa5bf33cd86f13a2a448e8b0f8[m
+Author: admin <eerecius@gmail.com>
+Date:   Thu Feb 18 23:24:07 2021 -0800
+
+    updated silica launch page
+
+[33mcommit fad997ba54262a4d11c0ed792d850a71dfd193df[m
+Author: admin <eerecius@gmail.com>
+Date:   Thu Feb 18 16:32:43 2021 -0800
+
+    removing excess files
+
+[33mcommit ef7ed768930f6d23fed11424f15875b36b71c180[m
+Author: admin <eerecius@gmail.com>
+Date:   Thu Feb 18 16:31:58 2021 -0800
+
+    rebrand
+
+[33mcommit 9634f73e4311dd422ac26915fd974f639c58da52[m
+Author: admin <eerecius@gmail.com>
+Date:   Mon Dec 7 20:39:30 2020 -0800
+
+    gallery part 1
+
+[33mcommit 1eae30e7e0887fa8fc42aae0a56945bad5c2b8b5[m
+Author: admin <eerecius@gmail.com>
+Date:   Mon Dec 7 17:19:37 2020 -0800
+
+    Update portfolio.html
+
+[33mcommit 0a72f6fd01f5fa8d194675d3ffbd53f9244bd853[m
+Author: admin <eerecius@gmail.com>
+Date:   Mon Dec 7 15:32:13 2020 -0800
+
+    copyright
+
+[33mcommit 0b91a04e6f86af77ba936bde7ab17efbe3a4f125[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Sun Dec 6 10:48:44 2020 -0800
+
+    Add files via upload
+
+[33mcommit e63a548af8d5c0859a05a35c1c687a0debe5b680[m
+Author: admin <eerecius@gmail.com>
+Date:   Sun Dec 6 10:44:31 2020 -0800
+
+    update
+
+[33mcommit f13092adb3166c9cda65e6313c17720ce935b799[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Dec 4 23:25:12 2020 -0800
+
+    Update index.html
+
+[33mcommit efb8a76da97e9d66526a780d8dfbbac29c270e4b[m
+Author: admin <eerecius@gmail.com>
+Date:   Fri Dec 4 23:24:18 2020 -0800
+
+    Update index.html
+
+[33mcommit 8eed5145436734bd56549d684b2b9e9c1b6bdcad[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Fri Dec 4 23:01:44 2020 -0800
+
+    Add files via upload
+
+[33mcommit ae289faa9abc4ada793791230d206a6e24eba926[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Fri Dec 4 22:50:59 2020 -0800
+
+    Add files via upload
+
+[33mcommit 4880e30f1bd520266e5483d44e6fe3e61140acfb[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Fri Dec 4 13:17:43 2020 -0800
+
+    Add files via upload
+
+[33mcommit 883e6405deaa5059e9c0700549133945e525a26d[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Thu Dec 3 15:34:34 2020 -0800
+
+    Create README.md
+
+[33mcommit 274989141ffb3657359ea8e6f03b20ef84114811[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Thu Dec 3 15:34:01 2020 -0800
+
+    Add files via upload
+
+[33mcommit eba632ad3bcc105aaf088efba25820833d14242a[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Thu Dec 3 15:33:35 2020 -0800
+
+    Add files via upload
+
+[33mcommit 11c68fff0ef2ac5cdd2240816727e12743827b5b[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Thu Dec 3 14:26:43 2020 -0800
+
+    Add files via upload
+
+[33mcommit c805101b6ac8634430c24d7000714849171a1c5b[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Thu Dec 3 14:25:16 2020 -0800
+
+    Add files via upload
+
+[33mcommit 4ab17a41dbd89016d04c4b0a5bd502e63e4df21e[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Thu Dec 3 00:13:36 2020 -0800
+
+    Create CNAME
+
+[33mcommit 1726dc120805842f2535da59eb88062f95fd21c7[m
+Author: eerecius <35268255+eerecius@users.noreply.github.com>
+Date:   Thu Dec 3 00:07:03 2020 -0800
+
+    Add files via upload
