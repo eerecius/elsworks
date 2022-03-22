@@ -31,6 +31,7 @@ function enlarge(piece){
 	previousPiece = piece.previousElementSibling;
 	
 	document.getElementById("content").style.display = "none";
+    document.getElementById("page-title").style.display = "none";
 	document.getElementById("gallery-container").style.display = "block";
 	
 	updateArrows();
@@ -38,6 +39,7 @@ function enlarge(piece){
 
 function ensmall() {
 	document.getElementById("content").style.display = "block";
+    document.getElementById("page-title").style.display = "block";
 	document.getElementById("gallery-container").style.display = "none";
 	
 	newerArrow.disabled = false;

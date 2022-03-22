@@ -33,6 +33,10 @@ header {
 	text-align: left;
 }
 
+hr {
+    border: 1px dotted black
+}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -47,6 +51,16 @@ a {
 .sidebar {
 	grid-column: 1 / 2;
 	grid-row: 2 / 3;
+}
+
+#page-title {
+    display: inline;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    font-family: "Archivo Black";
+    font-size: larger;
+    text-align: center;
+    padding-top: 40px;
 }
 
 #content {
@@ -177,4 +191,12 @@ button {
 #zoomer-outer {
 	width: 100%;
 	cursor: zoom-out;
+}
+
+.indented {
+    text-indent: 2em;
+}
+
+.centered {
+    text-align: center;
 }
