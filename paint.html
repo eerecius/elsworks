@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="interface.css" />
+<title>elsworks—art</title>
+<link rel="shortcut icon" type="image/jpg" href="favicon.ico?"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+<header>
+<a href="index.html"><img alt="els.works" class="logo" src="images/logo2.png"></img></a>
+</header>
+
+<div class="sidebar">
+<br>
+<a class="sidebar-links" href="about.html">about</a><br><br>
+<a class="sidebar-links" href="paint.html">painting &<br>illustration</a><br><br>
+<a class="sidebar-links" href="digital.html">digital</a><br><br>
+<a class="sidebar-links" href="comics.html">comic</a><br><br>
+<a class="sidebar-links" href="words.html">words</a><br><br>
+<a class="sidebar-links" href="silica.html">silica</a><br><br>
+<a class="sidebar-links" href="bicycle.html">bicycle</a><br><br>
+</div>
+
+<div id="gallery-container">
+	<button id="newer-arrow" class="gallery-arrows" onclick="scrollToLeft()">< newer</button>
+	<button id="older-arrow" class="gallery-arrows" onclick="scrollToRight()">older ></button><br>
+	<div id="zoomer-outer" onclick="ensmall()">
+		<img id="gallery-active" src="images/think-about.png" onclick="ensmall()"></img>
+	</div>
+	<p id="gallery-text">you shouldn't be seeing this!</p>
+	<br><br>---
+</div>
+
+<div id="page-title">
+painting and illustration
+</div>
+
+<div id="content" style="text-align:center;">
+
+click on pieces to enlarge and see more information
+
+<br><br>
+
+<div id="gallery">
+
+<img class="gallery-thumb" src="images/gallery/real art/self portrait (double image).jpg" onclick="enlarge(this)"
+title="Self portrait (double image) - 2022, ink on paper" alt="double image"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/Bar scene.jpg" onclick="enlarge(this)"
+title="Bar scene (Weapon Girl's) - 2021; oil on panel" alt="bar scene"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/PTCYD.jpg" onclick="enlarge(this)"
+title="P.T.C.Y.D. - 2021, oil on panel with ballpoint underdrawing" alt="PTCYD"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/swamp ladie.jpg" onclick="enlarge(this)"
+title="S.I.A.G.T.M.H.I.S.T.B.F.A.T? O.D.I.K.G.F.T.O.O.M? - 2021; gouache and ballpoint pen on cardboard. Displayed in the Sesnon Underground Homecoming exhibit" alt="swamp lady"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/whatever dude.png" onclick="enlarge(this)"
+title="whatever, dude! - 2021; mixed media and laser print" alt="whatever, dude!"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/cover.jpg" onclick="enlarge(this)"
+title="it is what it is - 2020; digital collage" alt="it is what is is"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/eve leaves the party early.jpg" onclick="enlarge(this)"
+title="eve leaves the party early - 2020; gouache" alt="eve leaves the party early"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/what do you want me to be.jpg" onclick="enlarge(this)"
+title="2020; ink and tempera with digital collage" alt="what do you want me to be"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/self portrait as whatever you want me to be.jpg" onclick="enlarge(this)"
+title="self portrait as whatever you want me to be - 2020; digitized ink and tempera" alt="self portrait was whatever you want me to be"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/zine cutoff.jpg" onclick="enlarge(this)"
+title="everything everywhere - 2020; zine" alt="everything everywhere (zine)"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/venus of river street.png" onclick="enlarge(this)"
+title="the venus of river street - 2020; acrylic on cardboard" alt="venus of river street"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/still life 10202020.jpg" onclick="enlarge(this)"
+title="2020; marker and acrylic" alt="still life 10/20/2020"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/still-life-the-mug-and-the-mason-jar.jpg" onclick="enlarge(this)"
+title="still life: the mug and the mason jar - 2020; graphite, marker, and acrylic" alt="still life: the mug and the mason jar"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/cash sale 1.jpg" onclick="enlarge(this)"
+title="cash sale (1/2) - 2020; digitized ink and acrylic" alt="cash sale (1/2)"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/cash sale 2.jpg" onclick="enlarge(this)"
+title="cash sale (2/2) - 2020; digital" alt="cash sale (2/2)"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/09152020.jpg" onclick="enlarge(this)"
+title="2020; marker and acrylic" alt="bdd self portrait 09/15/2020"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/joto.jpg" onclick="enlarge(this)"
+title="2020; grease pencil and acrylic" alt="joto"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/geryon.jpg" onclick="enlarge(this)"
+title="geryon (after anne carson's the autobiography of red) - 2020; ballpoint, acrylic, and paper towel" alt="geryon"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/self-portrait-with-my-tits-out-and-my-mouth-closed.jpg" onclick="enlarge(this)"
+title="self portrait with my tits out and my mouth closed - 2020; ink and acrylic" alt="self portrait with my tits out and my mouth closed"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/column.jpg" onclick="enlarge(this)"
+title="2020; digitized ink and acrylic" alt="column design"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/early morning.jpg" onclick="enlarge(this)"
+title="early morning (featured in vol. 5 of Fruitcake Magazine) - 2020; digitized ink" alt="early morning"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/under that damned light.jpg" onclick="enlarge(this)"
+title="under that damned light (featured in vol. 5 of Fruitcake Magazine) - 2020; digitized marker" alt="under that damned light"></img>
+
+
+<img class="gallery-thumb" src="images/gallery/real art/self portrait (double image).jpg" onclick="enlarge(this)"
+title="Self portrait (double image) - 2022, ink on paper" alt="double image"></img>
+
+<img class="gallery-thumb" src="images/gallery/real art/adam's apple.jpg" onclick="enlarge(this)"
+title="2020; steel rod, plaster bandages, gauze, needle and thread" alt="adam's apple (sculpture)"></img>
+
+</div>
+
+<br><br><br>
+
+</div>
+
+<div class="signature">
+	© 2020 - 2022 ellory erecius
+</div>
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="gallery.js"></script>
+
+</html>

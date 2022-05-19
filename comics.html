@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="interface.css" />
+<title>elsworks—art</title>
+<link rel="shortcut icon" type="image/jpg" href="favicon.ico?"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+<header>
+<a href="index.html"><img alt="els.works" class="logo" src="images/logo2.png"></img></a>
+</header>
+
+<div class="sidebar">
+<br>
+<a class="sidebar-links" href="about.html">about</a><br><br>
+<a class="sidebar-links" href="paint.html">painting &<br>illustration</a><br><br>
+<a class="sidebar-links" href="digital.html">digital</a><br><br>
+<a class="sidebar-links" href="comics.html">comic</a><br><br>
+<a class="sidebar-links" href="words.html">words</a><br><br>
+<a class="sidebar-links" href="silica.html">silica</a><br><br>
+<a class="sidebar-links" href="bicycle.html">bicycle</a><br><br>
+</div>
+
+<div id="gallery-container">
+	<button id="newer-arrow" class="gallery-arrows" onclick="scrollToLeft()">< newer</button>
+	<button id="older-arrow" class="gallery-arrows" onclick="scrollToRight()">older ></button><br>
+	<div id="zoomer-outer" onclick="ensmall()">
+		<img id="gallery-active" src="images/think-about.png" onclick="ensmall()"></img>
+	</div>
+	<p id="gallery-text">you shouldn't be seeing this!</p>
+	<br><br>---
+</div>
+
+<div id="page-title">
+comics
+</div>
+
+<div id="content" style="text-align:center;">
+
+click on pieces to enlarge and see more information
+
+<br><br>
+
+<div id="gallery">
+
+<img class="gallery-thumb" src="images/gallery/comic/verso 1.jpg" onclick="enlarge(this)"
+title="Verso (1/2) - 2022, colored pencil and ink on paper" alt="verso 1/2"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/verso 2.jpg" onclick="enlarge(this)"
+title="Verso (2/2) - 2022, colored pencil and ink on paper" alt="verso 2/2"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/jubilee.jpg" onclick="enlarge(this)"
+title="Jubilee - 2022, ink on paper" alt="jubilee"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/submission 1.png" onclick="enlarge(this)"
+title="Loved Bikes (1/2) - 2021, for Fruitcake Magazine vol. 6" alt="LB 1/2"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/submission 2.png" onclick="enlarge(this)"
+title="Loved Bikes (2/2) - 2021, for Fruitcake Magazine vol. 6" alt="LB 2/2"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/illegibility.jpg" onclick="enlarge(this)"
+title="Illegibility series - 2020, pen and highlighter on index card" alt="illegibility"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/hate the view.png" onclick="enlarge(this)"
+title="Hate the view - 2019" alt="hate the view"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/peh.png" onclick="enlarge(this)"
+title="Untitled - 2019" alt="peh"></img>
+
+<img class="gallery-thumb" src="images/gallery/comic/fire alarm - ellory erecius.png" onclick="enlarge(this)"
+title="Fire Alarm - 2020, for Fruitcake Magazine vol. 4" alt="Fire Alarm"></img>
+
+</div>
+
+<br><br><br>
+
+</div>
+
+<div class="signature">
+	© 2020 - 2022 ellory erecius
+</div>
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="gallery.js"></script>
+
+</html>
