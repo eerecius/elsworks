@@ -200,3 +200,13 @@ button {
 .centered {
     text-align: center;
 }
+
+.pagelink {
+    text-decoration: underline;
+}
+
+.pagelink:hover {
+    color: #d9c6a7;
+	background-color: black;
+	border: 3px solid black;
+}
